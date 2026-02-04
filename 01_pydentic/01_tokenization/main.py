@@ -5,7 +5,7 @@ from openai import OpenAI
 load_dotenv()
 # client = OpenAI()
 client = OpenAI(
-    api_key="AIzaSyBOGZQAyjqxnTGQTvXbQf_hy0TpcQmbJ9E",
+    api_key="sk-proj-1234567890",
     base_url="https://generativelanguage.googleapis.com/v1beta/"
 )
 # enc = tiktoken.encoding_for_model("gpt-4o")
