@@ -1,7 +1,5 @@
 from fastapi import FastAPI
 app = FastAPI()
-print("Server is starting...")
 @app.get("/")
 def read_root():
-    print("Received a request at the root endpoint.")
     return {"Hello": "World"}
