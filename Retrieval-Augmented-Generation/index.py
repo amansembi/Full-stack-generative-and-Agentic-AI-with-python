@@ -5,7 +5,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_qdrant import QdrantVectorStore
 load_dotenv()
-pdf_path = Path(__file__).parent / "Nodejs_Interview_Questions.pdf"
+pdf_path = Path(__file__).parent / "nodejs.pdf"
 
 loader = PyPDFLoader(file_path = pdf_path)
 docs = loader.load()
